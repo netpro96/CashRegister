@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Cash Register</h1>
+    <div id="change-due">
+        
+    </div>
+    <div class="input-div">
+        <label for="cash">Enter cash from customer:</label>
+        <input type="number" id="cash" class="user-input" value="">
+        <button class="check-btn-styles" id="purchase-btn">Purchase</button>
+    </div>
+    <div class="container">
+        <div class="total-container">
+            <p>Total: $1.87</p>
+        </div>
+        <div class="change-drawer">
+            <p><strong>Change in drawer:</strong></p>
+            <div id="change-drawer">
+                <p>Pennies: <span class="units">$1.01</span></p>
+                <p>Nickels: <span class="units">$2.05</span></p>
+                <p>Dimes: <span class="units">$3.1</span></p>
+                <p>Quarters: <span class="units">$4.25</span></p>
+                <p>Ones: <span class="units">$90</span></p>
+                <p>Fives: <span class="units">$55</span></p>
+                <p>Tens: <span class="units">$20</span></p>
+                <p>Twenties: <span class="units">$60</span></p>
+                <p>Hundreds: <span class="units">$100</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

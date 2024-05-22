@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #1A4D2E;
+    margin-top: 20px;
+  }
+
+  h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  #change-due{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+  }
+
+  .input-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .change-drawer{
+    margin-top: 10px;
+  }
+  .change-drawer > p{
+    margin-top: 5px;
+  }
+
+  .total-container{
+    margin-top: 10px;
+  }
+
+  h1, p, label, #purchase-btn{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  #purchase-btn{
+    height: 35px;
+    width: 120px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 5px;
+  }
+
+  #purchase-btn:hover{
+    color: green;
+  }
+
+  .user-input{
+    border-radius: 10px;
+    height: 30px;
+    width: 15%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
